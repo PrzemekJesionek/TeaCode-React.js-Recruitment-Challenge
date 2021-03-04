@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-
 import './App.css';
 
 const App = () => {
@@ -28,16 +27,14 @@ const App = () => {
 
   const handleClick = () =>{
     setActive(!active);
-    }
+  }
 
   const handleChange = (e) => {
       console.log(e.target.id);
-      console.log(e.target.checked);
-      if (e.target.id === allData.id) {
-      e.targed.checked = !e.target.checked;
-      }
-      
-      
+      setActive(e.target.checked);
+      // if (e.target.id === allData.id) {
+      // e.targed.checked = !e.target.checked;
+      // }
   }
   
   const filtredUsers = allData.filter(data =>{
