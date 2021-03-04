@@ -1,3 +1,9 @@
+<!-- To run procjet in local computer go to my GitHun profile, then go to my repsiotries and chose teacode repository. Next click on "Code" button and copy link to that repositories. Then open code editor (for example Visual Studio Code) and create folder for project. Then open new terminal and write comend "git clone" and before submit, past link that you just copied. After download repository you should install npm (node enviorment package) by typeing comant "npm install" in terminal. After that, you can run projecyt by using command "npm start" -->
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
